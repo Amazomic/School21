@@ -1,0 +1,13 @@
+# HELP system_cpu_usage CPU usage in percent
+# TYPE system_cpu_usage gauge
+system_cpu_usage 0.0
+
+# HELP system_memory_usage Memory usage in KB
+# TYPE system_memory_usage gauge
+system_memory_usage{type="used"} 749924
+system_memory_usage{type="free"} 250424
+
+# HELP system_disk_usage Disk usage in KB
+# TYPE system_disk_usage gauge
+system_disk_usage{type="used"} 7285220
+system_disk_usage{type="free"} 1123232

@@ -1,0 +1,4 @@
+#doubletop
+#https://grafana.razumv.tech
+#sudo apt update -y && apt install curl -y && sudo apt full-upgrade -y && sudo apt -y install mc
+#sudo hostnamectl set-hostname exemple
