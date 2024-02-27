@@ -90,12 +90,15 @@ void s21_sub_big_decimal(s21_big_decimal value_1, s21_big_decimal value_2,
 void s21_decr_exp_big_decimal(s21_big_decimal *dst, int n);
 void s21_shift_big_dec_r(s21_big_decimal *dst, int num);
 int s21_get_bit_big(s21_big_decimal dst, int index);
+
 //----------------------float decimal----------------------------------//
+
 int s21_get_bit(s21_decimal dst, int index);
 int s21_get_sign(s21_decimal dst);
 int s21_from_decimal_to_double(s21_decimal src, long double *dst);
 int s21_get_scale(s21_decimal dst);
 void s21_set_scale(s21_decimal *dst, int scale);
+
 //--------------------Основные функции--------------------------------//
 
 int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result);
