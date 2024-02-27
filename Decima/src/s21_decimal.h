@@ -60,6 +60,7 @@ int great_bez_znak(
     s21_decimal b);  // возвращает больше или меньше не смотря на знак
 
 //---------------------div_func----------------------------------------//
+
 int s21_is_decimal_no_empty(s21_decimal dst);
 void s21_import_to_big_decimal(s21_decimal value_1, s21_big_decimal *value_2);
 int s21_div_big_decimal(s21_big_decimal value_1, s21_big_decimal value_2,
